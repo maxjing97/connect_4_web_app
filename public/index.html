@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link rel="stylesheet" href="./index.css">
+    <title>Connect Four!</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Connect Four!</h1>
+    </header>
+
+    <div id="game">
+      <section id="select">
+        <h2>Choose a player's disk:</h2>
+        <ul id="disks">
+          <!--Rendered by react:
+              <button id="red">Red</button>
+              <button id="black">Black</button>
+                Red
+                </button>
+          -->
+        </ul>
+        <div id="actions">
+          <h2>Actions</h2>
+          <div id="action-buttons">
+            <!--Rendered by react:
+              <button class="action">Undo</button>
+              <button class="action">Reset Game</button>
+            -->
+          </div>
+          
+        </div>
+      </section>
+
+      <div id="board-background">
+        <section id="board">
+          <!--slots or the components of the board are rendered by react in the form-->
+          <!--
+            <div id={column_index} class="slot"></div>
+          -->
+        </section>
+        <div id="game-status"><!--rendered by react-->
+        </div>
+      </div>
+
+      <section id="about">
+        <p>Click on a column to drop a disk.
+        <strong>Connect four disks horizontally, vertically, or diagonally to win!</strong>
+        </p>
+        <span>This application was created by Max Jing. <br>Contact maxdj2@illinois.edu for more information.</span>
+      </section>
+    </div>
+
+
+
+
+  </body>
+</html>
