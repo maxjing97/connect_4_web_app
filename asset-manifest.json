@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/connect_4_web_app/static/js/main.91396a5b.js",
+    "index.html": "/connect_4_web_app/index.html",
+    "main.91396a5b.js.map": "/connect_4_web_app/static/js/main.91396a5b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.91396a5b.js"
+  ]
+}
